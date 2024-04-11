@@ -1,0 +1,13 @@
+{
+  "name": "atividades1004",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "ControleEstoque.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
