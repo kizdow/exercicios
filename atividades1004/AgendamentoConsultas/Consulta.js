@@ -1,3 +1,5 @@
+import { Paciente } from "../AgendamentoConsultas/Paciente.js"
+
 class Consulta extends Paciente {
     constructor(data, hora, especialidade,) {
         super(nome,dataNascimento)
