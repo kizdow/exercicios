@@ -1,0 +1,17 @@
+CREATE DATABASE
+
+CREATE TABLE usuarios (
+	id int not null AUTO_INCREMENT,
+    nome_usuario varchar(100),
+    senha_usuario varchar(100),
+    CONSTRAINT usuarios_pk PRIMARY KEY (id)
+);
+
+CREATE TABLE tarefas (
+    id int not null AUTO_INCREMENT,
+    id_categoria int NOT null,
+    id_estado int NOT null,
+	nome varchar(100),
+    descricao varchar(255),
+    CONSTRAINT tarefas_PK PRIMARY KEY (id)
+)
